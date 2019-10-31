@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeckOfCards component renders DeckOfCards 1`] = `
+<Fragment>
+  <Deck
+    title="Test"
+  >
+    <Card
+      content={null}
+    />
+    <Card
+      content={null}
+    />
+    <Card
+      content={null}
+    />
+  </Deck>
+</Fragment>
+`;

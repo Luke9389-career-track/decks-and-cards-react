@@ -16,10 +16,12 @@ export default class Gifs extends Component {
     return fetch(url)
       .then(response => response.json())
       .then(json => {
-        console.log(json);
         this.setState({ items: json });
-        console.log(this.state);
       });
+  }
+
+  handleClick = () => {
+    this.getGifs(this.props.count);
   }
 
   componentDidMount() {
@@ -35,6 +37,7 @@ export default class Gifs extends Component {
             return (<img key={item._id} src={item.gifLink} />);
           })}
         </Deck>
+        <button onClick={this.handleClick}>NEW GIFS!</button>
       </>
     );
   }
