@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Deck component renders Deck 1`] = `
+<section>
+  <header>
+    <h2>
+      Test
+    </h2>
+  </header>
+  <p
+    key="1"
+  />
+  <p
+    key="2"
+  />
+</section>
+`;
